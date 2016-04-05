@@ -61,6 +61,7 @@ if ($title == $subject) {
 	<title>Frac&eacute; Wildlife Art - <? echo $title; ?></title>
 </head>
 <body id="detail">
+<? include('googleanalytics.html'); ?>
 
 <?php
 require('sub_header.html');
@@ -92,6 +93,5 @@ if (!file_exists("$root_path/prints/$image")) {
 	</div>
 </div> <!-- /content -->
 
-<? include('googleanalytics.html'); ?>
 </body>
 </html>

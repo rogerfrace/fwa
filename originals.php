@@ -15,6 +15,7 @@
    	<link rel="stylesheet" type="text/css" href="fwa.css"> 
 </head>
 <body>
+<? include('googleanalytics.html'); ?>
 
 <?
 require('sub_header.html');
@@ -97,6 +98,5 @@ require('sub_header.html');
 
 </div> <!-- /content -->
 
-<? include('googleanalytics.html'); ?>
 </body>
 </html>

@@ -52,6 +52,7 @@ if (mysql_num_rows($result) == 1) {
    	<link rel="stylesheet" type="text/css" href="fwa.css"> 
 </head>
 <body>
+<? include('googleanalytics.html'); ?>
 
 <?
 require('sub_header.html');
@@ -101,6 +102,5 @@ if (mysql_num_rows($result) == 0) {
 
 </div> <!-- /content -->
 
-<? include('googleanalytics.html'); ?>
 </body>
 </html>
