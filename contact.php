@@ -1,9 +1,6 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="See answers to common questions or contact Frac&eacute; Wildlife Art">
 	<meta name="keywords" content="contact, frequently asked questions, wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
@@ -21,7 +18,7 @@
 require('sub_header.html');
 ?>
 
-<div id="content">
+<main id="content">
 
 <p><span class="header">Does Mr. Frac&eacute; still paint?</span>
 <br>Mr. Frac&eacute; retired from painting and the print business in 1996 and passed away December 16, 2005.</p>
@@ -44,7 +41,7 @@ require('sub_header.html');
 <p><span class="header">Do you take credit cards?</span>
 <br>Not at this time. You will need to pay with a money order, cashier's check or a personal check.</p>
 
-</div> <!-- /content -->
+</main> <!-- /content -->
 
 </body>
 </html>

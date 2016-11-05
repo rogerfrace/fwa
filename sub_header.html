@@ -1,16 +1,18 @@
-<div id="header">
-	<ul class="nav">
-		<li class="first"><a href="bio.php">Biography</a></li>
-		<li><a href="search.php">Artwork</a></li>
-		<li><a href="contact.php">Contact/FAQ</a></li>
-		<li><a href="originals.php">Originals</a></li>
-	</ul>
+<header id="header">
+	<nav>
+		<ul class="nav">
+			<li class="first"><a href="bio.php">Biography</a></li>
+			<li><a href="search.php">Artwork</a></li>
+			<li><a href="contact.php">Contact/FAQ</a></li>
+			<li><a href="originals.php">Originals</a></li>
+		</ul>
+	</nav>
 
 	<div class="searchform">
-		<form action="search.php" method="POST" id="searchform">
+		<form action="search.php" method="POST" role="search">
 			<div class="searchbox">
-				<span>Search</span>
-				<input type="text" name="keyword" size="30" value="" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" autocomplete="off"> <input name="submit" class="submit" type="submit" value="go">
+				<label for="inputString">Search</label>
+				<input type="search" name="keyword" size="30" value="" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" autocomplete="off"> <input name="submit" class="submit" type="submit" value="go">
 			</div>
 			
 			<div class="suggestionsBox" id="suggestions" style="display: none; float:left; margin:10px 0 0 63px;">
@@ -21,4 +23,4 @@
 			</div>
 		</form>
 	</div> <!-- /searchform -->
-</div> <!-- /header -->
+</header> <!-- /header -->

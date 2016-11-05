@@ -1,9 +1,6 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Biography of Charles Frac&eacute;">
 	<meta name="keywords" content="biography, wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
@@ -21,7 +18,7 @@
 require('sub_header.html');
 ?>
 
-<div id="content">
+<main id="content">
 
 <h1>About Charles Frac&eacute;</h1>
 
@@ -60,7 +57,7 @@ require('sub_header.html');
 	<img src="images/progress5.jpg" alt="progress 5" width="300" height="184">
 </div>
 
-</div> <!-- /content -->
+</main> <!-- /content -->
 
 </body>
 </html>
