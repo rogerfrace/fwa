@@ -1,6 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta http-equiv="Content-Language" content="en-us">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="FraceWildlifeArt.com is the only website operated by the family of Charles Frac&eacute;. We are pleased to offer artist's proofs as well as signed and numbered limited edition prints of a large selection of his artwork. When you order from FraceWildlifeArt.com, you are guaranteed to receive authentic artwork which has been stored with care and packed for shipping with the greatest attention to the safe arrival of your new treasure.">
 	<meta name="keywords" content="wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
@@ -12,8 +15,9 @@
 	<link rel="stylesheet" type="text/css" href="fwa.css"> 
 </head>
 <body id="homepage">
+<?php include('googleanalytics.html'); ?>
 
-<header id="header">
+<div id="header">
 	<ul class="nav">
 		<li class="first"><a href="bio.php">Biography</a></li>
 		<li><a href="search.php">Artwork</a></li>
@@ -22,10 +26,10 @@
 	</ul>
 
 	<div class="searchform">
-		<form action="search.php" method="POST" role="search">
+		<form action="search.php" method="POST">
 			<div class="searchbox">
-				<label for="inputString">Search</label>
-				<input type="search" name="keyword" size="30" value="" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" autocomplete="off"> <input name="submit" class="submit" type="submit" value="go">
+				<span>Search</span>
+				<input type="text" name="keyword" size="30" value="" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" autocomplete="off"> <input name="submit" class="submit" type="submit" value="go">
 			</div>
 			
 			<div class="suggestionsBox" id="suggestions" style="display: none; float:left; margin:10px 0 0 63px;">
@@ -36,14 +40,14 @@
 			</div>
 		</form>
 	</div> <!-- /searchform -->
-</header> <!-- /header -->
+</div> <!-- /header -->
 
-<main id="content">
+<div id="content">
 
 <div><img src="images/fwa-main.jpg" alt="main intro" width="671" height="514"></div>
 	
 
-</main> <!-- /content -->
+</div> <!-- /content -->
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
