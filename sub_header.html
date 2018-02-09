@@ -8,11 +8,11 @@
 		</ul>
 	</nav>
 
-	<div class="searchform">
-		<form action="search.php" method="POST" role="search">
-			<div class="searchbox">
+	<div class="searchform" role="search">
+		<form action="search.php" method="POST">
+			<div class="searchbox" aria-haspopup="grid">
 				<label for="inputString">Search</label>
-				<input type="search" name="keyword" size="30" value="" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" autocomplete="off"> <input name="submit" class="submit" type="submit" value="go">
+				<input role="searchbox" aria-autocomplete="list" aria-controls="suggestions" type="search" name="keyword" size="30" value="" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" autocomplete="off"> <input name="submit" class="submit" type="submit" value="go">
 			</div>
 			
 			<div class="suggestionsBox" id="suggestions" style="display: none; float:left; margin:10px 0 0 63px;">

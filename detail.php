@@ -76,7 +76,7 @@ if (!file_exists("$root_path/prints/$image")) {
 }
 ?>
 
-<div id="content" itemscope itemtype="http://schema.org/Painting">
+<div role="main" id="content" itemscope itemtype="http://schema.org/Painting">
 	<img src="prints/<?=$image;?>" id="printImg" alt="<?=$title;?>" itemprop="image">
 	<div class="prinfo">
 		<h1 itemprop="name"><?=$title;?></h1>

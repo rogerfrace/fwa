@@ -63,10 +63,10 @@ if (mysql_num_rows($result) == 0) {
 } else {
 	// display summary table
 	echo "<table border=0 align=center cellpadding=10>";
-	echo "<tr><td colspan=4 align=center>click column header to reorder your results</td></tr>";
-	echo "<tr><td align='center' class='header'>IMAGE</td>
-	<td align='left' class='header'><a href='search.php?keyword=$keyword&amp;sortorder=type'>TYPE</a></td>
-	<td align='left' class='header'><a href='search.php?keyword=$keyword&amp;sortorder=title'>TITLE</a></td>
+	echo "<caption align=center>click column header to reorder your results</caption>";
+	echo "<tr><th align='center' class='header'>IMAGE</td>
+	<th align='left' class='header'><a href='search.php?keyword=$keyword&amp;sortorder=type'>TYPE</a></td>
+	<th align='left' class='header'><a href='search.php?keyword=$keyword&amp;sortorder=title'>TITLE</a></td>
 		</tr>";
 	while ($row = mysql_fetch_array($result)) {
 		$id = $row['id'];
@@ -84,9 +84,9 @@ if (mysql_num_rows($result) == 0) {
 			flush();
 		}
 		// create and display row
-		echo "<tr><td align='right'><a href='detail.php?id=$id'><img src='prints_tnail/$image' border='0'></a></td>
-		<td><a href='detail.php?id=$id'>$type</a></td>
-		<td><a href='detail.php?id=$id'>$title</a></td>
+		echo "<tr><td align='right'><a href='detail.php?id=$id'><img src='prints_tnail/$image' alt='' aria-labelledby='printtitle".$id." printtype".$id."' border='0'></a></td>
+		<td><a href='detail.php?id=$id' id='printtype".$id."'>$type</a></td>
+		<td><a href='detail.php?id=$id' id='printtitle".$id."'>$title</a></td>
 		</tr>";
 		
 	} // end while loop
