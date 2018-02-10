@@ -3,11 +3,11 @@ require('db.php');
 require('prefs.php');
 require('functions.php');
 
-$keyword = $_POST['keyword'];
-$sortorder = $_POST['sortorder'];
+$keyword = !empty($_POST['keyword']) ? $_POST['keyword'] : '';
+$sortorder = !empty($_POST['sortorder']) ? $_POST['sortorder'] : '';
 
-if ($keyword=="") { unset ($keyword); }
-if ($sortorder=="") { unset ($sortorder); }
+#if ($keyword=="") { unset ($keyword); }
+#if ($sortorder=="") { unset ($sortorder); }
 
 // check for presence of keyword or sortorder
 if (substr($keyword,0,1) == "=") {
