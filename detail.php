@@ -1,5 +1,6 @@
 <?
-$id = $_GET['id'];
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
+$id = !empty($_GET['id']) ? $_GET['id'] : '';
 if ( (!$id) || (!is_numeric($id)) ) {
 	header("Location: search.php");
 }

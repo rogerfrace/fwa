@@ -1,10 +1,11 @@
 <?
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
 require('db.php');
 require('prefs.php');
 require('functions.php');
 
-$keyword = !empty($_POST['keyword']) ? $_POST['keyword'] : '';
-$sortorder = !empty($_POST['sortorder']) ? $_POST['sortorder'] : '';
+$keyword = !empty($_GET['keyword']) ? $_GET['keyword'] : '';
+$sortorder = !empty($_GET['sortorder']) ? $_GET['sortorder'] : '';
 
 #if ($keyword=="") { unset ($keyword); }
 #if ($sortorder=="") { unset ($sortorder); }
