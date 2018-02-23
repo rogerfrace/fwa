@@ -22,6 +22,8 @@ require('sub_header.html');
 
 	<h1>Charles Frac&eacute; Originals</h1>
 
+	<p>No Charles Frac&eacute; originals are available for sale at this time.</p>
+<?php /*
 	<div><p>Several Charles Frac&eacute; originals are now available for sale from an individual collector. All pieces remain in excellent condition. Please <a href="mailto:info@fracewildlifeart.com">contact us</a> if interested and we will pass your information on to the seller.</p></div>
 
 	<div class="original">
@@ -91,7 +93,7 @@ require('sub_header.html');
 		<img src="prints/golden_eagle.jpg" alt="Golden Eagle">
 		<p>Golden Eagle (1973)<br><a href="mailto:info@fracewildlifeart.com">Contact us for price</a></p>
 	</div>
-
+*/ ?>
 
 </main> <!-- /content -->
 
