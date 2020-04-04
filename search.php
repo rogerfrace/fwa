@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
 require('db.php');
 require('prefs.php');
@@ -50,14 +50,14 @@ if (mysql_num_rows($result) == 1) {
    	<link rel="stylesheet" type="text/css" href="fwa.css"> 
 </head>
 <body>
-<? include('googleanalytics.html'); ?>
+<?php include('googleanalytics.html'); ?>
 
-<?
+<?php
 require('sub_header.html');
 ?>
 
 <main id="content">
-<?
+<?php
 
 if (mysql_num_rows($result) == 0) {
 	echo "<p align=center><font color=red>No results found.</font></p>";

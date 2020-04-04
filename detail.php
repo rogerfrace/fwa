@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
 $id = !empty($_GET['id']) ? $_GET['id'] : '';
 if ( (!$id) || (!is_numeric($id)) ) {
@@ -54,15 +54,15 @@ if ($title == $subject) {
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="<? echo $headmeta; ?>, wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
-	<meta name="title" content="Frac&eacute; Wildlife Art - <? echo $title; ?>">
+	<meta name="keywords" content="<?php echo $headmeta; ?>, wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
+	<meta name="title" content="Frac&eacute; Wildlife Art - <?php echo $title; ?>">
 	<script type="text/javascript" src="js/jquery-1.2.1.pack.js"></script>
 	<script type="text/javascript" src="js/fwa.js"></script>
 	<link rel="stylesheet" type="text/css" href="fwa.css"> 
-	<title>Frac&eacute; Wildlife Art - <? echo $title; ?></title>
+	<title>Frac&eacute; Wildlife Art - <?php echo $title; ?></title>
 </head>
 <body id="detail">
-<? include('googleanalytics.html'); ?>
+<?php include('googleanalytics.html'); ?>
 
 <?php
 require('sub_header.html');

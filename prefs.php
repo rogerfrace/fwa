@@ -1,1 +1,1 @@
-<?$root_path=".";?>
+<?php$root_path=".";?>

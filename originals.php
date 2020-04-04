@@ -12,9 +12,9 @@
    	<link rel="stylesheet" type="text/css" href="fwa.css"> 
 </head>
 <body>
-<? include('googleanalytics.html'); ?>
+<?php include('googleanalytics.html'); ?>
 
-<?
+<?php
 require('sub_header.html');
 ?>
 

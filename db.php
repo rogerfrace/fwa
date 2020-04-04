@@ -1,4 +1,4 @@
-<?
+<?php
 $db_name = "fwacomdb";
 $table_name = "prints";
 $connection = mysql_connect("fwacomdb.db.8381461.725.hostedresource.net","fwacomdb","Sn0wL3op4rd!") or die("Could not connect to db");
