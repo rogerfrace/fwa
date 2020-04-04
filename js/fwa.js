@@ -8,7 +8,7 @@ function lookup(inputString) {
 		// Hide the suggestion box.
 		$('#suggestions').hide();
 	} else {
-		$.post("rpc.php5", {queryString: ""+inputString+""}, function(data){
+		$.post("rpc.php", {queryString: ""+inputString+""}, function(data){
 			if(data.length >0) {
 				$('#suggestions').show();
 				$('#autoSuggestionsList').html(data);

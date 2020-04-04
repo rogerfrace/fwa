@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
-require('db2.php5');
+require('db2.php');
 require('prefs.php');
 require('functions.php');
 
@@ -25,11 +25,11 @@ if (substr($keyword,0,1) == "=") {
 }
 
 // execute sql
-$result = mysql_query($query) or die(mysql_error());
+$result = mysqli_query($link,$query) or die(mysqli_error());
 
-if (mysql_num_rows($result) == 1) {
+if (mysqli_num_rows($result) == 1) {
 	// if 1 result, redirect to specific page, otherwise start render
-	while ($row = mysql_fetch_array($result)) {
+	while ($row = mysqli_fetch_array($result)) {
 		$id = $row['id'];
 		header("Location:detail.php?id=$id");
 	}
@@ -59,7 +59,7 @@ require('sub_header.html');
 <main id="content">
 <?php
 
-if (mysql_num_rows($result) == 0) {
+if (mysqli_num_rows($result) == 0) {
 	echo "<p align=center><font color=red>No results found.</font></p>";
 } else {
 	// display summary table
@@ -69,7 +69,7 @@ if (mysql_num_rows($result) == 0) {
 	<th align='left' class='header'><a href='search.php?keyword=$keyword&amp;sortorder=type'>TYPE</a></td>
 	<th align='left' class='header'><a href='search.php?keyword=$keyword&amp;sortorder=title'>TITLE</a></td>
 		</tr>";
-	while ($row = mysql_fetch_array($result)) {
+	while ($row = mysqli_fetch_array($result)) {
 		$id = $row['id'];
 		$type = $row['type'];
 		$image = $row['image'];

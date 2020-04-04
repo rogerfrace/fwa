@@ -4,18 +4,18 @@ $id = !empty($_GET['id']) ? $_GET['id'] : '';
 if ( (!$id) || (!is_numeric($id)) ) {
 	header("Location: search.php");
 }
-require('db.php');
+require('db2.php');
 require('prefs.php');
 require('functions.php');
 
 $query = "SELECT id, type, image, title, subject, year, size FROM prints WHERE id=$id LIMIT 1";
-$result = mysql_query($query) or die(mysql_error());
+$result = mysqli_query($link,$query) or die(mysqli_error());
 
-if (mysql_num_rows($result) < 1) {
+if (mysqli_num_rows($result) < 1) {
 	header("Location: search.php");
 }
 
-while ($row = mysql_fetch_array($result)) {
+while ($row = mysqli_fetch_array($result)) {
 	$id = $row['id'];
 	$type = $row['type'];
 	$image = $row['image'];
