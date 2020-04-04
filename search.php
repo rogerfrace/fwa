@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
-require('db.php');
+require('db2.php5');
 require('prefs.php');
 require('functions.php');
 
