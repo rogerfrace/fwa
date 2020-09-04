@@ -56,7 +56,7 @@ if ($title == $subject) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="<?php echo $headmeta; ?>, wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
 	<meta name="title" content="Frac&eacute; Wildlife Art - <?php echo $title; ?>">
-	<script type="text/javascript" src="js/jquery-1.2.1.pack.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/fwa.js"></script>
 	<link rel="stylesheet" type="text/css" href="fwa.css"> 
 	<title>Frac&eacute; Wildlife Art - <?php echo $title; ?></title>

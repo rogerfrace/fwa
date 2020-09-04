@@ -44,7 +44,7 @@ if (mysqli_num_rows($result) == 1) {
 	<meta name="keywords" content="wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
 	<meta name="title" content="Frac&eacute; Wildlife Art - Artwork">
 	<title>Frac&eacute; Wildlife Art - Artwork</title>
-	<script type="text/javascript" src="js/jquery-1.2.1.pack.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/reflection.js"></script>
 	<script type="text/javascript" src="js/fwa.js"></script>
    	<link rel="stylesheet" type="text/css" href="fwa.css"> 
@@ -85,7 +85,7 @@ if (mysqli_num_rows($result) == 0) {
 			flush();
 		}
 		// create and display row
-		echo "<tr><td align='right'><a href='detail.php?id=$id'><img src='prints_tnail/$image' alt='' aria-labelledby='printtitle".$id." printtype".$id."' border='0'></a></td>
+		echo "<tr><td align='right'><a href='detail.php?id=$id'><img loading=\"lazy\" src='prints_tnail/$image' alt='' aria-labelledby='printtitle".$id." printtype".$id."' border='0'></a></td>
 		<td><a href='detail.php?id=$id' id='printtype".$id."'>$type</a></td>
 		<td><a href='detail.php?id=$id' id='printtitle".$id."'>$title</a></td>
 		</tr>";

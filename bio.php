@@ -6,7 +6,7 @@
 	<meta name="keywords" content="biography, wildlife art, nature art, Charles Frace, artist, painter, Somerset House Publishing, American Masters Foundation, Frame House Gallery, animals, lithographs, prints">
 	<meta name="title" content="Frac&eacute; Wildlife Art - Biography">
 	<title>Frac&eacute; Wildlife Art - Charles Frac&eacute; Biography</title>
-	<script type="text/javascript" src="js/jquery-1.2.1.pack.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/reflection.js"></script>
 	<script type="text/javascript" src="js/fwa.js"></script>
    	<link rel="stylesheet" type="text/css" href="fwa.css"> 
