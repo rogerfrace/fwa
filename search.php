@@ -25,7 +25,7 @@ if (substr($keyword,0,1) == "=") {
 }
 
 // execute sql
-$result = mysqli_query($link,$query) or die(mysqli_error());
+$result = mysqli_query($conn,$query) or die(mysqli_error());
 
 if (mysqli_num_rows($result) == 1) {
 	// if 1 result, redirect to specific page, otherwise start render

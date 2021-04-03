@@ -9,7 +9,7 @@ require('prefs.php');
 require('functions.php');
 
 $query = "SELECT id, type, image, title, subject, year, size FROM prints WHERE id=$id LIMIT 1";
-$result = mysqli_query($link,$query) or die(mysqli_error());
+$result = mysqli_query($conn,$query) or die(mysqli_error());
 
 if (mysqli_num_rows($result) < 1) {
 	header("Location: search.php");
