@@ -29,6 +29,7 @@ body {
 }
 #homepage .artthumbs {margin-top: 2em;}
 
+#bio p {max-width:80em;}
 #bio .flrt {
 	float:right;
 	padding: 1em;
