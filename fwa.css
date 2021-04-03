@@ -34,5 +34,10 @@ body {
 	padding: 1em;
 }
 
+#detail a {
+	display: block;
+	margin-bottom:1em;
+	color: #FFFFFF;
+}
 #detail #content #printImg {float:left;}
 #detail #content .prinfo {float:left; margin-left:20px; max-width:500px;}
