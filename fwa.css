@@ -28,6 +28,7 @@ body {
 	font-weight: normal;
 }
 #homepage .artthumbs {margin-top: 2em;}
+#homepage .artthumbs a {margin:2px;}
 
 #bio p {max-width:80em;}
 #bio img {max-width:100%;}
