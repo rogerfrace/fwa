@@ -42,8 +42,20 @@ nav a {
 	margin-bottom:1em;
 	color: #FFFFFF;
 }
-#detail #content #printImg {
+#detail #printImg {
 	float:left;
 	max-width:100%;
 }
-#detail #content .prinfo {float:left; margin-left:20px; max-width:500px;}
+#detail .prinfo {
+	float:left;
+	margin-left:20px;
+	max-width:500px;
+}
+#detail dt {
+	font-style: italic;
+	margin-right: 1em;
+}
+#detail dd {
+	margin-inline-start: 0;
+	margin-bottom: 1em;
+}
