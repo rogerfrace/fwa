@@ -29,6 +29,7 @@ body {
 }
 #homepage .artthumbs {margin-top: 2em;}
 #homepage .artthumbs a {margin:2px;}
+#homepage .artthumbs img {min-width:70px; height:100px;}
 
 #bio p {max-width:80em;}
 #bio img {max-width:100%;}
