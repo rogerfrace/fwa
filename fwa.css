@@ -31,8 +31,8 @@ body {
 #homepage .artthumbs a {margin:2px;}
 #homepage .artthumbs img {min-width:70px; height:100px;}
 
-#bio p {max-width:80em;}
-#bio img {max-width:100%;}
+#bio p {max-width:70em;}
+#bio figure {margin:5%;}
 #bio .flrt {
 	float:right;
 	padding: 1em;
