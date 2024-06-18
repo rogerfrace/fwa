@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  # dead things
+  RewriteRule ^detail\.php(.*)$ - [G,NC]
+  RewriteRule ^originals\.php$ - [G,NC]
+</IfModule>
