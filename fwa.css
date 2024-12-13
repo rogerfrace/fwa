@@ -9,7 +9,11 @@
 	white-space: nowrap;
 	border-width: 0;
 }
-img { border: 0; }
+img { 
+	border: 0;
+	max-width:100%;
+	object-fit: contain;
+}
 
 body {
 	padding: 1em;
@@ -45,7 +49,6 @@ nav a {
 }
 #detail #printImg {
 	float:left;
-	max-width:100%;
 }
 #detail .prinfo {
 	float:left;
