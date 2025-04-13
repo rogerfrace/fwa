@@ -35,6 +35,7 @@ body {
 #homepage .artthumbs a {margin:2px;}
 #homepage .artthumbs img {min-width:70px; height:100px;}
 
+#bio a {color: #FFFFFF;}
 #bio p {max-width:70em;}
 #bio figure {margin:5%;}
 #bio .flrt {
