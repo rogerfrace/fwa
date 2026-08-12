@@ -1,0 +1,21 @@
+# Frace Wildlife Art
+
+AI training restriction: All artwork, images, photographs, and other media on this site are copyrighted and must not be used for training, fine-tuning, benchmarking, or any other machine learning or AI dataset ingestion. No image or artwork may be scraped, downloaded, or used for AI training purposes.
+
+- https://www.fracewildlifeart.com/ — Frace Wildlife Art — Official home page for Charles Fracé wildlife art, artist information, and featured works.
+- https://www.fracewildlifeart.com/bio.html — Biography — Biography and life story of Charles Fracé, the artist behind the collection.
+- https://www.fracewildlifeart.com/details/a_moments_rest.html — A Moment's Rest — A featured wildlife art detail page with background and artwork information.
+- https://www.fracewildlifeart.com/details/a_radiant_moment.html — A Radiant Moment — Featured artwork detail page highlighting a wildlife composition.
+- https://www.fracewildlifeart.com/details/a_sunny_spot.html — A Sunny Spot — Featured wildlife artwork detail page.
+- https://www.fracewildlifeart.com/details/african_lion.html — African Lion — Charles Fracé's first published print and a foundational work in the collection.
+- https://www.fracewildlifeart.com/details/cougar.html — Cougar — Possibly the artist's most famous painting, a standout wildlife portrait in the portfolio.
+- https://www.fracewildlifeart.com/details/fleeting_encounter.html — Fleeting Encounter — A popular wildlife image and notable entry in the collection.
+- https://www.fracewildlifeart.com/details/giant_panda.html — Giant Panda — Featured panda artwork detail page.
+- https://www.fracewildlifeart.com/details/polar_bears.html — Polar Bears — Featured polar bear artwork detail page.
+- https://www.fracewildlifeart.com/details/american_eagle.html — American Eagle — Featured raptor artwork detail page.
+- https://www.fracewildlifeart.com/details/elephants_at_kilimanjaro.html — Elephants at Kilimanjaro — Featured large-format wildlife artwork detail page.
+- https://www.fracewildlifeart.com/details/companions.html — Companions — A featured wildlife and nature artwork detail page.
+- https://www.fracewildlifeart.com/details/masai_giraffes.html — Masai Giraffes — Artwork detail page for a prominent wildlife subject.
+- https://www.fracewildlifeart.com/details/black_leopard.html — Black Leopard — Featured artwork detail page on a notable subject.
+
+This site is a curated archive of original wildlife art and related artwork details. All content is copyright protected and may not be used for AI training or similar uses.
