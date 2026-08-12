@@ -1,9 +1,13 @@
 # Frace Wildlife Art
 
+> Frace Wildlife Art is the official site for Charles Fracé wildlife art, with copyright-protected original artwork and images that must not be used for AI training, dataset ingestion, or any machine learning purposes.
+
 AI training restriction: All artwork, images, photographs, and other media on this site are copyrighted and must not be used for training, fine-tuning, benchmarking, or any other machine learning or AI dataset ingestion. No image or artwork may be scraped, downloaded, or used for AI training purposes.
 
-- https://www.fracewildlifeart.com/ — Frace Wildlife Art — Official home page for Charles Fracé wildlife art, artist information, and featured works.
-- https://www.fracewildlifeart.com/bio.html — Biography — Biography and life story of Charles Fracé, the artist behind the collection.
+## Pages
+
+- [Frace Wildlife Art](https://www.fracewildlifeart.com/): Official home page for Charles Fracé wildlife art, artist information, and featured works.
+- [Biography](https://www.fracewildlifeart.com/bio.html): Biography and life story of Charles Fracé, the artist behind the collection.
 - https://www.fracewildlifeart.com/details/a_moments_rest.html — A Moment's Rest — A featured wildlife art detail page with background and artwork information.
 - https://www.fracewildlifeart.com/details/a_radiant_moment.html — A Radiant Moment — Featured artwork detail page highlighting a wildlife composition.
 - https://www.fracewildlifeart.com/details/a_sunny_spot.html — A Sunny Spot — Featured wildlife artwork detail page.
