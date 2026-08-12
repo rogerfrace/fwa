@@ -1,0 +1,4 @@
+User-Agent: *
+Sitemap: https://www.fracewildlifeart.com/sitemap.xml
+Disallow: /prints_tnail/
+Content-Signal: search=yes, ai-input=yes, ai-train=no
